@@ -9,10 +9,19 @@ body {
 button {
   background-color: #3882f6;
   color: white;
+  font: 1.1em sans-serif;
+  white-space: nowrap;
+}
+button.hero {
   padding: 10px 32px;
   border-radius: 8px;
-  border: none;
-  font: 1em sans-serif;
+  border-style: none;
+}
+button.cta {
+  padding: 10px 32px;
+  border-radius: 8px;
+  border: 2px solid white;
+  margin: 0;
 }
 nav {
   display: flex;
@@ -140,4 +149,15 @@ footer {
 .cta {
   background-color: #3882f6;
   color: white;
+  margin: 50px 20%;
+  display: flex;
+  padding: 30px 30px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+}
+.ctatext {
+}
+.ctasignup {
+  font-size: 10px;
 }
